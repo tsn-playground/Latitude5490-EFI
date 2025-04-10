@@ -53,7 +53,7 @@ Note: Use HeliPort if you want to use Sonoma / Sequoia
 
 ## Bugs (only on Sequoia):
   - Intel Bluetooth (needs patches)
-  - AirPortitlwm (only works on Sequoia)
+  - AirPortitlwm (only works on Ventura)
   - Brightness slider (-igfxblt and -igfxbls won't work)
 
 ## Screenshots
