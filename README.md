@@ -1,11 +1,15 @@
-# EFI-DELL-LATITUDE-5490
+# macOS Ventura and Sequoia for Dell Latitude 5490 (MacBookPro15,2)
 
+A fully working EFI, made by @JhonatanRian
 
-EFI que eu uso em meu dell latitude 5490 com macos Ventura.
+## Thanks to those who helped me with this EFI:
+  - @TECHNIKVERBOT for the re-work and Sequoia patches.
+  - @C1014 for helping me boot Ventura for the first time.
 
 ## Opencore
-### Versão testada:
-  - Version 13.06: "Ventura
+### Version tested:
+  - 13.06: "Ventura"
+  - 15.4: "Sequoia"
 
 ## Build Config.plist
  - [Link](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/kaby-lake.html)
@@ -26,25 +30,29 @@ EFI que eu uso em meu dell latitude 5490 com macos Ventura.
 | Wireless Card       | Intel Dual Band Wireless-AC 8265/8275            |
 | Bluetooth Card      | Intel Bluetooth 8265/8275                        |
 
-## Testado e esta funcionando:
-  - touchpad                       ✅
-  - teclado                        ✅
-  - bluetooth                      ✅
+## What's working:
+  - Touchpad                       ✅
+  - Keyboard                       ✅
   - HDMI                           ✅
   - VGA                            ✅
-  - portas usb                     ✅
-  - sleep                          ✅
-  - consumo de bateria equilibrado ✅
-  - microphone                     ✅
-  - entrada p2 para headset        ✅
-  - wifi                           ✅
+  - USB Ports                      ✅
+  - Sleep                          ✅
+  - Battery percentage             ✅
+  - Microphone                     ✅
+  - Headphone jack                 ✅
+  - Wi-Fi with itlwm               ✅
   - Ethernet                       ✅
   - Webcam                         ✅
+  - USB-C                          ✅
+  - Hardware acceleration          ✅
 
-## O que não foi testado:
-  - Hardware Acceleration
+## What's not tested:
   - SD Card Reader
-  - USB-C
+
+## Bugs (only on Sequoia):
+  - Intel Bluetooth (needs patches)
+  - AirPortitlwm (only works on Sequoia)
+  - Brightness slider (-igfxblt and -igfxbls won't work)
 
 ## Screenshots
 ![](https://github.com/JhonatanRian/EFI_DELL_LATITUDE_5490/blob/main/screenshots/iScreen%20Shoter%20-%20Terminal%20-%20240130234633.png?raw=true)
