@@ -4,6 +4,8 @@ A fully working EFI, made by [@JhonatanRian](https://github.com/JhonatanRian)
 
 Note: Use HeliPort if you want to use Sonoma / Sequoia
 
+Before you install macOS, you should read [this](#generating-your-own-serial-and-editing-rom) (mandatory)
+
 ## Thanks to those who helped me with this EFI:
   - [@TECHNIKVERBOT](https://github.com/TECHNIKVERBOT) for the re-work and Sequoia patches.
   - [@C1014](https://github.com/C1014) for helping me boot Ventura for the first time.
@@ -58,7 +60,7 @@ Note: Use HeliPort if you want to use Sonoma / Sequoia
 
 ## Generating your own serial and Editing ROM
 
-Use GenSMBIOS (https://github.com/corpnewt/GenSMBIOS) to generate a serial for MacBookAir9,1
+Use GenSMBIOS (https://github.com/corpnewt/GenSMBIOS) to generate a serial for MacBookPro15,2
 
 Use Xcode, ProperTree or any decent plist editor to manually enter the details in the following sections of the config (as shown in the video): (SystemSerialNumber, MLB, UUID and ROM)
 
