@@ -1,6 +1,6 @@
 # macOS Ventura and Sequoia for Dell Latitude 5490 (MacBookPro15,2)
 
-A fully working EFI, made by @JhonatanRian
+A fully working EFI, made by [@JhonatanRian](https://github.com/JhonatanRian)
 
 Note: Use HeliPort if you want to use Sonoma / Sequoia
 
