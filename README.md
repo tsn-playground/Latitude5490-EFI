@@ -54,9 +54,9 @@ Before you install macOS, you should read [this](#generating-your-own-serial-and
   - SD Card Reader
 
 ## Bugs (only on Sequoia):
-  - Intel Bluetooth (needs patches)
-  - AirPortitlwm (only works on Ventura)
-  - Brightness slider (-igfxblt and -igfxbls won't work)
+  - Intel Bluetooth - needs patches
+  - AirPortitlwm - only works on Ventura, spoof it to broadcom or change it to a supported wi-fi driver
+  - Brightness slider - igfxblt and igfxbls won't work, fix brightness values by yourself.
 
 ## Generating your own serial and Editing ROM
 
