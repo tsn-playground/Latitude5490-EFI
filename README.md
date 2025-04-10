@@ -56,6 +56,14 @@ Note: Use HeliPort if you want to use Sonoma / Sequoia
   - AirPortitlwm (only works on Ventura)
   - Brightness slider (-igfxblt and -igfxbls won't work)
 
+## Generating your own serial and Editing ROM
+
+Use GenSMBIOS (https://github.com/corpnewt/GenSMBIOS) to generate a serial for MacBookAir9,1
+
+Use Xcode, ProperTree or any decent plist editor to manually enter the details in the following sections of the config (as shown in the video): (SystemSerialNumber, MLB, UUID and ROM)
+
+https://user-images.githubusercontent.com/59102649/116117179-3ea51200-a6bc-11eb-8a18-a03f7bb5bf1d.mp4
+
 ## Screenshots
 ![](https://github.com/JhonatanRian/EFI_DELL_LATITUDE_5490/blob/main/screenshots/iScreen%20Shoter%20-%20Terminal%20-%20240130234633.png?raw=true)
 
